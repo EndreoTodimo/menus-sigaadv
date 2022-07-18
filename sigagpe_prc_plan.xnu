@@ -1,0 +1,51 @@
+<ApMenu>
+	<DocumentProperties>
+		<Module></Module>
+		<Version>10.1</Version>
+	</DocumentProperties>
+	<Menu Status="Enable">
+		<Title lang="pt">&Atualizações</Title>
+		<Title lang="es">&Actualizaciones</Title>
+		<Title lang="en">&Updates</Title>
+		<ItemId>A070000001</ItemId>
+		<Menu Status="Enable">
+			<Title lang="pt">Funcionários</Title>
+			<Title lang="es">Empleados</Title>
+			<Title lang="en">Employees</Title>
+			<ItemId>0000001707</ItemId>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Histórico Contratos</Title>
+				<Title lang="es">Historial Contratos</Title>
+				<Title lang="en">Contract History</Title>
+				<Function>GPEA900</Function>
+				<Type>01</Type>
+				<Tables>SRA</Tables>
+				<Tables>RGE</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>07</Module>
+				<Owner>0</Owner>
+				<ItemId>0000011823</ItemId>
+				<KeyWord>
+					<KeyWord lang="pt"> </KeyWord>
+					<KeyWord lang="es"> </KeyWord>
+					<KeyWord lang="en"> </KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+	</Menu>
+	<Menu Status="Enable">
+		<Title lang="pt">&Consultas</Title>
+		<Title lang="es">&Consultas</Title>
+		<Title lang="en">&Queries</Title>
+	</Menu>
+	<Menu Status="Enable">
+		<Title lang="pt">&Relatorios</Title>
+		<Title lang="es">&Informes</Title>
+		<Title lang="en">&Reports</Title>
+	</Menu>
+	<Menu Status="Enable">
+		<Title lang="pt">&Miscelanea</Title>
+		<Title lang="es">&Miscelanea</Title>
+		<Title lang="en">&Miscellaneous</Title>
+	</Menu>
+</ApMenu>

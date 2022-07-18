@@ -1,0 +1,111 @@
+<ApMenu>
+	<DocumentProperties>
+		<Module>SIGAESP</Module>
+		<Version>7.10</Version>
+	</DocumentProperties>
+	<Menu Status="Enable">
+		<Title lang="pt">&Atualizações</Title>
+		<Title lang="es">&Actualizaciones</Title>
+		<Title lang="en">&Updates</Title>
+		<Menu Status="Enable">
+			<Title lang="pt">Cadastros</Title>
+			<Title lang="es">Archivos</Title>
+			<Title lang="en">Files</Title>
+			<MenuItem Status="Enable">
+				<Title lang="pt">UPDATE SIGAPRODUCAO</Title>
+				<Title lang="es">UPDATE SIGAPRODUCAO</Title>
+				<Title lang="en">UPDATE SIGAPRODUCAO</Title>
+				<Function>RSQLCW05</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">COMANDO SQL </Title>
+				<Title lang="es">Rsqlcw03</Title>
+				<Title lang="en">Rsqlcw03</Title>
+				<Function>RSQLCW06</Function>
+				<Type>03</Type>
+				<Tables>SA1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>06</Module>
+				<Owner>0</Owner>
+			</MenuItem>			
+		</Menu>
+	</Menu>
+	<Menu Status="Enable">
+		<Title lang="pt">&Consultas</Title>
+		<Title lang="es">&Consultas</Title>
+		<Title lang="en">&Queries</Title>
+		<Menu Status="Enable">
+			<Title lang="pt">Cadastros</Title>
+			<Title lang="es">Archivos</Title>
+			<Title lang="en">Files</Title>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Genéricos</Title>
+				<Title lang="es">Genericos</Title>
+				<Title lang="en">Generic</Title>
+				<Function>LERDA</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>97</Module>
+			</MenuItem>
+		</Menu>
+	</Menu>
+	<Menu Status="Enable">
+		<Title lang="pt">&Relatorios</Title>
+		<Title lang="es">&Informes</Title>
+		<Title lang="en">&Reports</Title>
+		<Menu Status="Enable">
+			<Title lang="pt">Cadastros</Title>
+			<Title lang="es">Archivos</Title>
+			<Title lang="en">Files</Title>
+		</Menu>
+	</Menu>
+	<Menu Status="Enable">
+		<Title lang="pt">&Miscelanea</Title>
+		<Title lang="es">&Miscelanea</Title>
+		<Title lang="en">&Miscellaneous</Title>
+		<Menu Status="Enable">
+			<Title lang="pt">Workflow</Title>
+			<Title lang="es">Workflow</Title>
+			<Title lang="en">Workflow</Title>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Rastreabilidade</Title>
+				<Title lang="es">Trazabilidad</Title>
+				<Title lang="en">Trackability</Title>
+				<Function>WFC001</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>97</Module>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Processos Usuarios</Title>
+				<Title lang="es">Procesos Usuarios</Title>
+				<Title lang="en">Users Processes</Title>
+				<Function>WFC002</Function>
+				<Type>1</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>97</Module>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">TDFT001U</Title>
+				<Title lang="es">TDFT001U</Title>
+				<Title lang="en">TDFT001U</Title>
+				<Function>TDFT001U</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>97</Module>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">TDFT002U</Title>
+				<Title lang="es">TDFT002U</Title>
+				<Title lang="en">TDFT002U</Title>
+				<Function>TDFT002U</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>97</Module>
+			</MenuItem>
+		</Menu>
+	</Menu>
+</ApMenu>
