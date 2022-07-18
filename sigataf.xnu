@@ -64,7 +64,7 @@
 			<MenuItem Status="Enable">
 				<Title lang="pt">Wizard Config. Tss</Title>
 				<Title lang="es">Wizard Config. Tss</Title>
-				<Title lang="en">Wizard Config. Tss</Title>
+				<Title lang="en">Tss Setting Wizard</Title>
 				<Function>TAFAWIZD</Function>
 				<Type>01</Type>
 				<Access>xxxxxxxxxx</Access>
@@ -91,6 +91,22 @@
 					<KeyWord lang="pt">Tafawizd,tss,configuração,ecpf,cpf</KeyWord>
 					<KeyWord lang="es">Tafawizd,tss,configuración,ecpf,cpf</KeyWord>
 					<KeyWord lang="en">Tafawizd,tss,setting,ecpf,cpf</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Cadastro de Consolidação do E-social</Title>
+				<Title lang="es">Archivo de Consolidación Del E-social</Title>
+				<Title lang="en"></Title>
+				<Function>TAFA485</Function>
+				<Type>01</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>84</Module>
+				<Owner>0</Owner>
+				<ItemId>0000015543</ItemId>
+				<KeyWord>
+					<KeyWord lang="pt">Tafa485,consolidacao,tags</KeyWord>
+					<KeyWord lang="es">Tafa485,consolidación,tags</KeyWord>
+					<KeyWord lang="en"> </KeyWord>
 				</KeyWord>
 			</MenuItem>
 			<MenuItem Status="Enable">
@@ -1570,7 +1586,7 @@
 			<MenuItem Status="Enable">
 				<Title lang="pt">Cons Cont Prev R B</Title>
 				<Title lang="es">Cons Cont Prev R B</Title>
-				<Title lang="en">Cons Cont Prev R B</Title>
+				<Title lang="en">R B Soc Sec Cont Cons</Title>
 				<Function>TAFA098</Function>
 				<Type>01</Type>
 				<Tables>C6E</Tables>
@@ -3390,18 +3406,35 @@
 					</KeyWord>
 				</MenuItem>
 				<MenuItem Status="Enable">
-					<Title lang="pt">Treinamentos, Cap. Exerc</Title>
-					<Title lang="es">Treinamentos, Cap. Exerc</Title>
-					<Title lang="en">Treinamentos, Cap. Exerc</Title>
+					<Title lang="pt">Exame Toxicológico do Mot. Profissional</Title>
+					<Title lang="es"></Title>
+					<Title lang="en">Toxicological Exam Of Professional Reason</Title>
+					<Function>TAFA528</Function>
+					<Type>01</Type>
+					<Access>xxxxxxxxxx</Access>
+					<Module>84</Module>
+					<Owner>0</Owner>
+					<ItemId>0000015562</ItemId>
+					<KeyWord>
+						<KeyWord lang="pt"> </KeyWord>
+						<KeyWord lang="es"> </KeyWord>
+						<KeyWord lang="en"> </KeyWord>
+					</KeyWord>
+				</MenuItem>
+				<MenuItem Status="Enable">
+					<Title lang="pt">Treinamentos, Cap. Exerc Simulados e Outras Anota</Title>
+					<Title lang="es"></Title>
+					<Title lang="en">Trainings, Simulated Exercises And Other Notes</Title>
 					<Function>TAFA529</Function>
 					<Type>01</Type>
 					<Access>xxxxxxxxxx</Access>
 					<Module>84</Module>
 					<Owner>0</Owner>
+					<ItemId>0000015563</ItemId>
 					<KeyWord>
-						<KeyWord lang="pt">                         </KeyWord>
-						<KeyWord lang="es">                         </KeyWord>
-						<KeyWord lang="en">                         </KeyWord>
+						<KeyWord lang="pt"> </KeyWord>
+						<KeyWord lang="es"> </KeyWord>
+						<KeyWord lang="en"> </KeyWord>
 					</KeyWord>
 				</MenuItem>
 			</Menu>
@@ -3443,6 +3476,32 @@
 					</KeyWord>
 				</MenuItem>
 				<MenuItem Status="Enable">
+					<Title lang="pt">Fgts Por Trabalhador</Title>
+					<Title lang="es">Fgts Por Trabajador</Title>
+					<Title lang="en">Fgts By Worker</Title>
+					<Function>TAFA520</Function>
+					<Type>01</Type>
+					<Tables>V2P</Tables>
+					<Tables>V2Q</Tables>
+					<Tables>V2R</Tables>
+					<Tables>V2S</Tables>
+					<Tables>V2T</Tables>
+					<Tables>V2U</Tables>
+					<Tables>V2V</Tables>
+					<Tables>V2W</Tables>
+					<Tables>V2X</Tables>
+					<Tables>V2Y</Tables>
+					<Access>xxxxxxxxxx</Access>
+					<Module>84</Module>
+					<Owner>0</Owner>
+					<ItemId>0000013822</ItemId>
+					<KeyWord>
+						<KeyWord lang="pt">Fgts,esocial,totalizador,5003,s5003</KeyWord>
+						<KeyWord lang="es">Fgts,esocial,totalizador,5003,s5003</KeyWord>
+						<KeyWord lang="en">Fgts,esocial,totalizer,5003,s5003</KeyWord>
+					</KeyWord>
+				</MenuItem>
+				<MenuItem Status="Enable">
 					<Title lang="pt">Cont. Social Por Contribuinte</Title>
 					<Title lang="es">Cont. Social Por Contribuyente</Title>
 					<Title lang="en">Social Cont. Per Taxpayer</Title>
@@ -3472,6 +3531,29 @@
 						<KeyWord lang="pt">Imposto,renda,retido,fonte,trabalhador,esocial,5012,s5012</KeyWord>
 						<KeyWord lang="es">Impuesto,renta,retenido,fuente,trabajador,esocial,5012,s5012</KeyWord>
 						<KeyWord lang="en">Tax,income,withheld,source,worker,esocial,5012,s5012</KeyWord>
+					</KeyWord>
+				</MenuItem>
+				<MenuItem Status="Enable">
+					<Title lang="pt">Fgts Por Contribuinte</Title>
+					<Title lang="es">Fgts Por Contribuyente</Title>
+					<Title lang="en">Fgts By Taxpayer</Title>
+					<Function>TAFA521</Function>
+					<Type>01</Type>
+					<Tables>V2Z</Tables>
+					<Tables>V20</Tables>
+					<Tables>V21</Tables>
+					<Tables>V22</Tables>
+					<Tables>V23</Tables>
+					<Tables>V24</Tables>
+					<Tables>V25</Tables>
+					<Access>xxxxxxxxxx</Access>
+					<Module>84</Module>
+					<Owner>0</Owner>
+					<ItemId>0000015418</ItemId>
+					<KeyWord>
+						<KeyWord lang="pt">Fgts,esocial,totalizador,5003,s5003</KeyWord>
+						<KeyWord lang="es">Fgts,esocial,totalizador,5003,s5003</KeyWord>
+						<KeyWord lang="en">Fgts,esocial,totalizer,5003,s5003</KeyWord>
 					</KeyWord>
 				</MenuItem>
 			</Menu>
@@ -3759,7 +3841,7 @@
 			<MenuItem Status="Enable">
 				<Title lang="pt">Contr Prev Rec Brt</Title>
 				<Title lang="es">Contr Prev Ing Brt</Title>
-				<Title lang="en">Contr Prev Rec Brt</Title>
+				<Title lang="en">Grs Inc Soc Sec Contr</Title>
 				<Function>TAFA097</Function>
 				<Type>01</Type>
 				<Tables>C5M</Tables>
@@ -4299,21 +4381,6 @@
 					<KeyWord lang="en">Monitor,monitoring,reinf,events,transmission</KeyWord>
 				</KeyWord>
 			</MenuItem>
-			<MenuItem Status="Enable">
-				<Title lang="pt">Painel Reinf</Title>
-				<Title lang="es">Painel Reinf</Title>
-				<Title lang="en">Painel Reinf</Title>
-				<Function>TAFA552B</Function>
-				<Type>01</Type>
-				<Access>xxxxxxxxxx</Access>
-				<Module>84</Module>
-				<Owner>0</Owner>
-				<KeyWord>
-					<KeyWord lang="pt">                         </KeyWord>
-					<KeyWord lang="es">                         </KeyWord>
-					<KeyWord lang="en">                         </KeyWord>
-				</KeyWord>
-			</MenuItem>
 		</Menu>
 	</Menu>
 	<Menu Status="Enable">
@@ -4714,6 +4781,22 @@
 					<KeyWord lang="en">Updates,receipt,protocol</KeyWord>
 				</KeyWord>
 			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Migrador</Title>
+				<Title lang="es">Migrador</Title>
+				<Title lang="en">Migrator</Title>
+				<Function>TAFMIGR003</Function>
+				<Type>01</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>84</Module>
+				<Owner>0</Owner>
+				<ItemId>0000015118</ItemId>
+				<KeyWord>
+					<KeyWord lang="pt">Migrador</KeyWord>
+					<KeyWord lang="es">Migrador</KeyWord>
+					<KeyWord lang="en">Migrator</KeyWord>
+				</KeyWord>
+			</MenuItem>
 		</Menu>
 		<Menu Status="Enable">
 			<Title lang="pt">Integração</Title>
@@ -4858,6 +4941,38 @@
 					<KeyWord lang="pt">Ajuste,status</KeyWord>
 					<KeyWord lang="es">Ajuste,estatus</KeyWord>
 					<KeyWord lang="en">Adjustment,status</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Gravação Xmlid - Retorno 301</Title>
+				<Title lang="es">Grabación Xmlid - Devolución 301</Title>
+				<Title lang="en">Xmlid Record - Return 301</Title>
+				<Function>TAFAJRET30</Function>
+				<Type>01</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>84</Module>
+				<Owner>0</Owner>
+				<ItemId>0000012986</ItemId>
+				<KeyWord>
+					<KeyWord lang="pt">Ajuste,301,106,xmlid,gravacao,id</KeyWord>
+					<KeyWord lang="es">Ajuste,301,106,xmlid,grabación,id</KeyWord>
+					<KeyWord lang="en">Adjust,301,106,xmlid,recording,id</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Ajuste de Ids E-social</Title>
+				<Title lang="es"></Title>
+				<Title lang="en">Adjust Of E-social Ids</Title>
+				<Function>TFAJUSTIDS</Function>
+				<Type>01</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>84</Module>
+				<Owner>0</Owner>
+				<ItemId>0000015558</ItemId>
+				<KeyWord>
+					<KeyWord lang="pt">Ajuste,id,ids,duplicados</KeyWord>
+					<KeyWord lang="es">Ajuste,id,ids,duplicados</KeyWord>
+					<KeyWord lang="en">Adjust,id,ids,duplicated</KeyWord>
 				</KeyWord>
 			</MenuItem>
 		</Menu>

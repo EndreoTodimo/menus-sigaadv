@@ -1,6 +1,6 @@
 <ApMenu>
 	<DocumentProperties>
-		<Module></Module>
+		<Module>SIGAMDT</Module>
 		<Version>10.1</Version>
 	</DocumentProperties>
 	<Menu Status="Enable">

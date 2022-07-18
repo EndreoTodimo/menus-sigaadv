@@ -1,6 +1,6 @@
 <ApMenu>
 	<DocumentProperties>
-		<Module></Module>
+		<Module>SIGACTB</Module>
 		<Version>10.1</Version>
 	</DocumentProperties>
 	<Menu Status="Enable">
@@ -4086,28 +4086,6 @@
 					<Module>34</Module>
 					<Owner>0</Owner>
 					<ItemId>0000023662</ItemId>
-					<KeyWord>
-						<KeyWord lang="pt"> </KeyWord>
-						<KeyWord lang="es"> </KeyWord>
-						<KeyWord lang="en"> </KeyWord>
-					</KeyWord>
-				</MenuItem>
-			</Menu>
-			<Menu Status="Enable">
-				<Title lang="pt">Faturamento</Title>
-				<Title lang="es">Facturación</Title>
-				<Title lang="en">Invoicing</Title>
-				<ItemId>0000023654</ItemId>
-				<MenuItem Status="Enable">
-					<Title lang="pt">Contabilização de Nota Fiscal de Saída</Title>
-					<Title lang="es">Contabilidad de Factura de Salida</Title>
-					<Title lang="en">Outbound Invoice Accounting</Title>
-					<Function>CTBANFS</Function>
-					<Type>01</Type>
-					<Access>xxxxxxxxxx</Access>
-					<Module>34</Module>
-					<Owner>0</Owner>
-					<ItemId>0000023660</ItemId>
 					<KeyWord>
 						<KeyWord lang="pt"> </KeyWord>
 						<KeyWord lang="es"> </KeyWord>

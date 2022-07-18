@@ -1,6 +1,6 @@
 <ApMenu>
 	<DocumentProperties>
-		<Module></Module>
+		<Module>SIGAFAT</Module>
 		<Version>10.1</Version>
 	</DocumentProperties>
 	<Menu Status="Enable">
@@ -51,7 +51,7 @@
 					<KeyWord lang="en">                         </KeyWord>
 				</KeyWord>
 			</MenuItem>
-			<MenuItem Status="Disable">
+			<MenuItem Status="Enable">
 				<Title lang="pt">Liberaçäo Pedidos</Title>
 				<Title lang="es">Liberacion Pedidos</Title>
 				<Title lang="en">Orders Release</Title>
@@ -314,7 +314,7 @@
 			<Title lang="pt">Especifico Todimo</Title>
 			<Title lang="es">Especifico Todimo</Title>
 			<Title lang="en">Especifico Todimo</Title>
-			<MenuItem Status="Enable">
+			<MenuItem Status="Disable">
 				<Title lang="pt">Impressao de Dl</Title>
 				<Title lang="es">Impressao de Dl</Title>
 				<Title lang="en">Impressao de Dl</Title>
@@ -345,7 +345,7 @@
 					<KeyWord lang="en">                         </KeyWord>
 				</KeyWord>
 			</MenuItem>
-			<MenuItem Status="Enable">
+			<MenuItem Status="Hidden">
 				<Title lang="pt">Rel. Transf. Pendentes</Title>
 				<Title lang="es">Rel. Transf. Pendentes</Title>
 				<Title lang="en">Rel. Transf. Pendentes</Title>
@@ -366,6 +366,66 @@
 				<Title lang="en">Rel. Transf. Revend. Pend</Title>
 				<Function>URTRAN02</Function>
 				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Controle de Entrega</Title>
+				<Title lang="es">Controle de Entrega</Title>
+				<Title lang="en">Controle de Entrega</Title>
+				<Function>TDLJ002F</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Gerenciamento de Reservas</Title>
+				<Title lang="es">Gerenciamento de Reservas</Title>
+				<Title lang="en">Gerenciamento de Reservas</Title>
+				<Function>TDLJ003F</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Endereco de Entrega</Title>
+				<Title lang="es">Endereco de Entrega</Title>
+				<Title lang="en">Endereco de Entrega</Title>
+				<Function>TDFT015F</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Mdf-e</Title>
+				<Title lang="es">Mdf-e</Title>
+				<Title lang="en">Mdf-e</Title>
+				<Function>SPEDMDFE</Function>
+				<Type>01</Type>
 				<Access>xxxxxxxxxx</Access>
 				<Module>05</Module>
 				<Owner>0</Owner>
@@ -1431,6 +1491,156 @@
 				<Type>03</Type>
 				<Access>xxxxxxxxxx</Access>
 				<Module>39</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Rel Pesq Notas do Cliente</Title>
+				<Title lang="es">Rel Pesq Notas do Cliente</Title>
+				<Title lang="en">Rel Pesq Notas do Cliente</Title>
+				<Function>UTDR002</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Vendas Faturadas</Title>
+				<Title lang="es">Vendas Faturadas</Title>
+				<Title lang="en">Vendas Faturadas</Title>
+				<Function>UTDR008</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Consulta de Notas Por Mun</Title>
+				<Title lang="es">Consulta de Notas Por Mun</Title>
+				<Title lang="en">Consulta de Notas Por Mun</Title>
+				<Function>UTDR006</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Itens Devolvidos de Venda</Title>
+				<Title lang="es">Itens Devolvidos de Venda</Title>
+				<Title lang="en">Itens Devolvidos de Venda</Title>
+				<Function>UTDR007</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Vendas Gerencial Sintetic</Title>
+				<Title lang="es">Vendas Gerencial Sintetic</Title>
+				<Title lang="en">Vendas Gerencial Sintetic</Title>
+				<Function>UTDR010</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Vendas Gerencial Analitic</Title>
+				<Title lang="es">Vendas Gerencial Analitic</Title>
+				<Title lang="en">Vendas Gerencial Analitic</Title>
+				<Function>UTDR011</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Consulta Orcamento</Title>
+				<Title lang="es">Consulta Orcamento</Title>
+				<Title lang="en">Consulta Orcamento</Title>
+				<Function>UTDR013</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Rel Vendas Por Grupo</Title>
+				<Title lang="es">Rel Vendas Por Grupo</Title>
+				<Title lang="en">Rel Vendas Por Grupo</Title>
+				<Function>TDFT002R</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Condicao de Pgto</Title>
+				<Title lang="es">Condicao de Pgto</Title>
+				<Title lang="en">Condicao de Pgto</Title>
+				<Function>UTDR015</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
+				<Owner>0</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">                         </KeyWord>
+					<KeyWord lang="es">                         </KeyWord>
+					<KeyWord lang="en">                         </KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Relatorio Vendas Futuras</Title>
+				<Title lang="es">Relatorio Vendas Futuras</Title>
+				<Title lang="en">Relatorio Vendas Futuras</Title>
+				<Function>TDFT001R</Function>
+				<Type>03</Type>
+				<Access>xxxxxxxxxx</Access>
+				<Module>05</Module>
 				<Owner>0</Owner>
 				<KeyWord>
 					<KeyWord lang="pt">                         </KeyWord>
